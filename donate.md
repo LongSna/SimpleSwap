@@ -1,5 +1,5 @@
 # Donate
-__Thank you to every donor who is willing to advance the progress of this project__
+__Thank to every donor who is willing to advance the progress of this project__
 
 **SOL:** `5Wdxc8wKpXAiPto7X97JFYEE7wmg8NNfq9LvVKHoEr5B`
 
