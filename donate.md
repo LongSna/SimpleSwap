@@ -1,4 +1,4 @@
-#Thank you to every donor who is willing to advance the progress of this project
+# Thank you to every donor who is willing to advance the progress of this project
 
 **SOL:** `5Wdxc8wKpXAiPto7X97JFYEE7wmg8NNfq9LvVKHoEr5B`
 
