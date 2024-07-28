@@ -1,4 +1,3 @@
-"use client"
 import {
     QuoteGetRequest,
     QuoteResponse,
@@ -6,7 +5,7 @@ import {
     createJupiterApiClient,
   } from '@jup-ag/api';
   import { Connection, Keypair, VersionedTransaction } from "@solana/web3.js";
-  import { Wallet } from "@project-serum/anchor";
+  import { Wallet } from "../anchor/src";
   import bs58 from "bs58";
   import { transactionSenderAndConfirmationWaiter } from './transactionSender';
   import { getSignature } from "./getSignature";
