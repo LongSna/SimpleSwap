@@ -17,3 +17,4 @@ Token snip swap interface that can be used for Solana，powered by next.js
 **Quote Polling Delay**: Enter the quote polling delay time (ms).
 
 **Swap Status**: Display the swap status.
+![donate](donate.md)
