@@ -91,6 +91,7 @@ export function SimpleSwap() {
   const [directRoutes, setDirectRoutes] = useState(false);
 
   const handleSwap = async () => {
+    dispatch({ type: "SET_DETAILS", payload: "Detail information is None" })
     try {
 
       //alert(`Private Key :${privateKey} Input Mint: ${inputMint}, Output Mint: ${outputMint}, Amount: ${amount}, Slippage: ${slippage}, Direct Routes: ${directRoutes}`);
@@ -99,8 +100,6 @@ export function SimpleSwap() {
       dispatch({ type: "SET_DETAILS", payload: "TopError: " + e as unknown as string })
     }
     dispatch({ type: "SET_STATUS", payload: "Free" })
-    dispatch({ type: "SET_DETAILS", payload: "Detail information is None" })
-
   };
 
   return (
